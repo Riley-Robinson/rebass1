@@ -4,7 +4,7 @@ import {
   Card,
   Image,
   Heading,
-  Text
+  Text, 
 } from 'rebass'
 
 export default ({
@@ -22,10 +22,10 @@ export default ({
         <Image src={image} />
         <Box px={2}>
             <Heading as='h3'>
-              {title}
+              Card Demo 
             </Heading>
             <Text fontSize={0}>
-              {description}
+              basic card demo information
             </Text>
         </Box>
       </Card>
